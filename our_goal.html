@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--css -->
+  <link rel="stylesheet" href="./css/check_list.css">
+  <title>Our Goals</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="top-section">
+      <!-- trái tim  -->
+      <div class="box">
+        <canvas id="pinkboard"></canvas>
+      </div>
+    </div>
+
+    <form action="">
+      <input type="text" class="todo-input">
+      <button class="todo-button" type="submit">
+          <i class="fas fa-plus-circle fa-lg"></i>
+      </button>
+      <div class="select">
+          <select name="todos" class="filter-todo">
+              <option value="all">Tất cả</option>
+              <option value="completed">Làm được òi</option>
+              <option value="incomplete">Chưa làm</option>
+          </select>
+      </div>
+    </form>
+
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+    
+  </div>
+
+
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="index.html">Nhà</a></li>
+            <li><a href="our_goal.html">Our Goals</a></li>
+            <li><a href="memory.html">Kỉ niệm</a></li>
+            <li><a href="me_to_you.html">Tớ Gửi Cậu</a></li>
+            <li><a href="you_to_me.html">Điều Cậu Muốn Nói</a></li>
+            <li><a href="you_make_me_sad.html">Điều cậu làm tớ buồn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./js/goals.js"></script>
+
+</body>
+</html>
